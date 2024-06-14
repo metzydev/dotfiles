@@ -9,18 +9,18 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/fsh/fast-syntax-highlighting.plugin.zsh
 
-setopt autocd
 setopt alwaystoend
+setopt autocd
 setopt autopushd
 setopt completeinword
 setopt extendedhistory
-setopt noflowcontrol
 setopt histexpiredupsfirst
 setopt histignoredups
 setopt histignorespace
 setopt histverify
 setopt interactivecomments
 setopt longlistjobs
+setopt noflowcontrol
 setopt pushdignoredups
 setopt pushdminus
 setopt sharehistory
