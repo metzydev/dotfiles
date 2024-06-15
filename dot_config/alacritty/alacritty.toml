@@ -19,5 +19,8 @@ size = 12
 [colors]
 draw_bold_text_with_bright_colors = true
 
+[cursor]
+style = { shape = "Beam", blinking = "On"}
+
 [mouse]
 hide_when_typing = true
