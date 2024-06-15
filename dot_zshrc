@@ -32,3 +32,5 @@ setopt sharehistory
 
 eval "$(atuin init zsh)"
 eval "$(starship init zsh)"
+
+export PATH=$PATH:/home/metzy/.spicetify
