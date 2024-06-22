@@ -3,23 +3,16 @@
   "modules": [
     "title",
     "separator",
-    {
-      "type": "os",
-      "format": "{3}"
-    },
+    "os",
     "kernel",
     "uptime",
-    "packages",
     "shell",
     {
       "type": "display",
-      "compactType": "original"
+      "compactType": "original-with-refresh-rate"
     },
     "de",
     "wm",
-    "wmtheme",
-    "theme",
-    "icons",
     "terminal",
     {
       "type": "cpu",
@@ -30,6 +23,12 @@
       "format": "{1} {2}"
     },
     "memory",
+    {
+      "type": "disk",
+      "format": "{1} / {2} ({3}) - {9}",
+      "folders": "/",
+      "showExternal": false
+    },
     "break",
     "colors"
   ]
