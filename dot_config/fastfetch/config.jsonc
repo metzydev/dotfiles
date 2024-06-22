@@ -3,10 +3,7 @@
   "modules": [
     "title",
     "separator",
-    {
-      "type": "os",
-      "format": "{3} {10} {12}"
-    },
+    "os",
     "kernel",
     "uptime",
     "shell",
