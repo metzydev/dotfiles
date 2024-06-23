@@ -25,9 +25,8 @@
     "memory",
     {
       "type": "disk",
-      "format": "{1} / {2} ({3}) - {9}",
-      "folders": "/",
-      "showExternal": false
+      "format": "{1} / {2} ({3}) - {9}"
+      // "folders": "/"
     },
     "break",
     "colors"
