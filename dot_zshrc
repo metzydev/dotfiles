@@ -25,6 +25,6 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 eval "$(atuin init zsh)"
 eval "$(starship init zsh)"
 
-export EDITOR="code --wait"
+export EDITOR="nvim"
 export PATH=$PATH:$HOME/.spicetify
 
