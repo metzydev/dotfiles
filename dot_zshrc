@@ -1,3 +1,7 @@
+alias cz='chezmoi'
+alias eza='eza --icons --git'
+alias ls='eza --icons --git'
+
 setopt alwaystoend
 setopt autocd
 setopt autopushd
@@ -14,12 +18,11 @@ setopt pushdignoredups
 setopt pushdminus
 setopt sharehistory
 
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
-
 . "$HOME/.atuin/bin/env"
+source ~/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 eval "$(atuin init zsh)"
 eval "$(starship init zsh)"
 
-export PATH=$PATH:/home/metzy/.spicetify
+export PATH=$PATH:$HOME/.spicetify
