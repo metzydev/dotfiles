@@ -2,7 +2,6 @@ alias cz='chezmoi'
 alias eza='eza --icons --git'
 alias ls='eza --icons --git'
 
-. "$HOME/.atuin/bin/env"
 source ~/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
@@ -12,3 +11,4 @@ eval "$(starship init zsh)"
 export EDITOR="nvim"
 export PATH=$PATH:$HOME/.spicetify
 
+eval "$(atuin init zsh)"
